@@ -1,0 +1,9 @@
+{
+  "Space": [
+    {"q": "What planet has rings?", "options": ["Earth", "Mars", "Saturn", "Venus"], "answer": "Saturn"}
+  ],
+  "Python": [
+    {"q": "What keyword defines a function?", "options": ["def", "func", "lambda", "define"], "answer": "def"}
+  ]
+}
+
