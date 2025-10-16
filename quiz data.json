@@ -62,5 +62,6 @@
      {"q": "Who sang 'Rolling in the Deep'?", "options": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"], "answer": "Adele"},
      {"q": "Which genre is associated with Beethoven?", "options": ["Jazz", "Rock", "Classical", "Pop"], "answer": "Classical"},
      {"q": "What is the highest male singing voice?", "options": ["Tenor", "Baritone", "Bass", "Countertenor"], "answer": "Countertenor"}
-  ],
+  ]
+}
 
