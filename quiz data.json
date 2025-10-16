@@ -55,6 +55,12 @@
     {"q": "What height is a regulation basketball hoop (feet)?", "options": ["9", "10", "11", "12"], "answer": "10"},
     {"q": "Which country hosted the 2016 Summer Olympics?", "options": ["China", "Brazil", "United Kingdom", "Russia"], "answer": "Brazil"}
   ],
-  "Music": [
+    "Music": [
     {"q": "Who is known as the King of Pop?", "options": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"], "answer": "Michael Jackson"},
-    {"q": "Which instrument has 88 keys?", "options":
+    {"q": "Which instrument has 88 keys?", "options": ["Piano", "Organ", "Synthesizer", "Harpsichord"], "answer": "Piano"},
+    {"q": "Which band released the album 'Abbey Road'?", "options": ["The Beatles", "Queen", "Pink Floyd", "The Rolling Stones"], "answer": "The Beatles"},
+    {"q": "Who sang 'Rolling in the Deep'?", "options": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"], "answer": "Adele"},
+    {"q": "Which genre is associated with Beethoven?", "options": ["Jazz", "Rock", "Classical", "Pop"], "answer": "Classical"},
+    {"q": "What is the highest male singing voice?", "options": ["Tenor", "Baritone", "Bass", "Countertenor"], "answer": "Countertenor"}
+  ]
+
