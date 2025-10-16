@@ -1,30 +1,60 @@
 {
   "Space": [
-    {"q": "Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": "Mars"},
-    {"q": "What is the name of our galaxy?", "options": ["Andromeda", "Milky Way", "Whirlpool", "Sombrero"], "answer": "Milky Way"},
-    {"q": "Which planet has the most moons?", "options": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": "Saturn"},
-    {"q": "What is the closest star to Earth?", "options": ["Alpha Centauri", "Betelgeuse", "Proxima Centauri", "Sun"], "answer": "Sun"},
-    {"q": "Which planet has rings?", "options": ["Earth", "Mars", "Saturn", "Venus"], "answer": "Saturn"}
+    {"q": "Which planet is the largest in the Solar System?", "options": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Jupiter"},
+    {"q": "What is Earth’s natural satellite?", "options": ["Phobos", "Deimos", "Moon", "Europa"], "answer": "Moon"},
+    {"q": "What boundary surrounds a black hole?", "options": ["Singularity", "Photon sphere", "Event horizon", "Ergosphere"], "answer": "Event horizon"},
+    {"q": "Which planet is known as the Morning Star?", "options": ["Mercury", "Venus", "Mars", "Jupiter"], "answer": "Venus"},
+    {"q": "What causes stars to twinkle?", "options": ["Asteroids", "Solar flares", "Atmospheric turbulence", "Gravitational lensing"], "answer": "Atmospheric turbulence"},
+    {"q": "What force keeps planets in orbit around the Sun?", "options": ["Magnetism", "Gravity", "Electromagnetism", "Centrifugal force"], "answer": "Gravity"}
   ],
   "Python": [
-    {"q": "Who created Python?", "options": ["Guido van Rossum", "Elon Musk", "Dennis Ritchie", "James Gosling"], "answer": "Guido van Rossum"},
-    {"q": "Which symbol is used for comments in Python?", "options": ["//", "#", "/* */", "<!-- -->"], "answer": "#"},
-    {"q": "What does 'len()' do?", "options": ["Adds numbers", "Returns length", "Sorts list", "Deletes item"], "answer": "Returns length"},
-    {"q": "Which keyword defines a function?", "options": ["func", "define", "def", "function"], "answer": "def"},
-    {"q": "What is the output of print(2 ** 3)?", "options": ["6", "8", "9", "5"], "answer": "8"}
+    {"q": "What data structure does `{}` create by default?", "options": ["tuple", "list", "dict", "set"], "answer": "dict"},
+    {"q": "How do you start a for-loop?", "options": ["for i = 1 to 10:", "foreach item in list:", "for item in sequence:", "loop over sequence:"], "answer": "for item in sequence:"},
+    {"q": "Which keyword handles exceptions?", "options": ["catch", "except", "error", "fail"], "answer": "except"},
+    {"q": "How do you open a file for reading?", "options": ["open('file','r')", "open('file','w')", "file.open('file')", "read('file')"], "answer": "open('file','r')"},
+    {"q": "Which type is an immutable sequence?", "options": ["list", "set", "dict", "tuple"], "answer": "tuple"},
+    {"q": "Which list method adds an item to the end?", "options": ["add()", "append()", "insert()", "extend()"], "answer": "append()"}
   ],
   "History": [
-    {"q": "Who was the first President of the United States?", "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], "answer": "George Washington"},
-    {"q": "In which year did World War II end?", "options": ["1945", "1939", "1918", "1950"], "answer": "1945"},
-    {"q": "Which empire built the Colosseum?", "options": ["Greek", "Roman", "Ottoman", "Persian"], "answer": "Roman"},
-    {"q": "Who discovered America in 1492?", "options": ["Vasco da Gama", "Christopher Columbus", "Marco Polo", "Ferdinand Magellan"], "answer": "Christopher Columbus"},
-    {"q": "Which wall divided Berlin?", "options": ["Great Wall", "Berlin Wall", "Iron Curtain", "Wall of Europe"], "answer": "Berlin Wall"}
+    {"q": "Which English king signed the Magna Carta?", "options": ["Henry VIII", "John", "Richard the Lionheart", "Edward I"], "answer": "John"},
+    {"q": "In what year did the French Revolution begin?", "options": ["1789", "1776", "1812", "1804"], "answer": "1789"},
+    {"q": "Who was the first Roman emperor?", "options": ["Julius Caesar", "Augustus", "Nero", "Caligula"], "answer": "Augustus"},
+    {"q": "What wall fell in 1989, marking the end of the Cold War?", "options": ["Great Wall", "Hadrian’s Wall", "Berlin Wall", "Wall of China"], "answer": "Berlin Wall"},
+    {"q": "Which civilization built Machu Picchu?", "options": ["Aztec", "Mayan", "Inca", "Olmec"], "answer": "Inca"},
+    {"q": "Who was known as the Maid of Orléans?", "options": ["Catherine de Medici", "Joan of Arc", "Marie Antoinette", "Eleanor of Aquitaine"], "answer": "Joan of Arc"}
   ],
   "Science": [
-    {"q": "What is H2O?", "options": ["Oxygen", "Hydrogen", "Water", "Salt"], "answer": "Water"},
-    {"q": "What planet is closest to the sun?", "options": ["Venus", "Earth", "Mercury", "Mars"], "answer": "Mercury"},
-    {"q": "What gas do plants absorb?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"], "answer": "Carbon Dioxide"},
-    {"q": "What is the boiling point of water?", "options": ["90°C", "100°C", "120°C", "80°C"], "answer": "100°C"},
-    {"q": "Which organ pumps blood?", "options": ["Lungs", "Brain", "Heart", "Kidneys"], "answer": "Heart"}
-  ]
-}
+    {"q": "What element has atomic number 6?", "options": ["Oxygen", "Carbon", "Nitrogen", "Helium"], "answer": "Carbon"},
+    {"q": "What is the chemical formula for table salt?", "options": ["NaCl", "KCl", "H2SO4", "CaCO3"], "answer": "NaCl"},
+    {"q": "What is the SI unit of electric current?", "options": ["Volt", "Watt", "Ampere", "Ohm"], "answer": "Ampere"},
+    {"q": "Why does the sky appear blue?", "options": ["Water vapor", "Ozone", "Dust particles", "Rayleigh scattering"], "answer": "Rayleigh scattering"},
+    {"q": "Which vitamin is produced when skin is exposed to sunlight?", "options": ["A", "B12", "C", "D"], "answer": "D"},
+    {"q": "What is the approximate speed of light in vacuum?", "options": ["3×10^5 m/s", "3×10^6 m/s", "3×10^8 m/s", "3×10^10 m/s"], "answer": "3×10^8 m/s"}
+  ],
+  "Movies": [
+    {"q": "In which film did Leonardo DiCaprio win his first Oscar?", "options": ["The Revenant", "Titanic", "The Departed", "Catch Me If You Can"], "answer": "The Revenant"},
+    {"q": "Who directed \"Inception\"?", "options": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Quentin Tarantino"], "answer": "Christopher Nolan"},
+    {"q": "What is the name of the wizarding school in Harry Potter?", "options": ["Beauxbatons", "Durmstrang", "Ilvermorny", "Hogwarts"], "answer": "Hogwarts"},
+    {"q": "Which movie features the song \"My Heart Will Go On\"?", "options": ["Avatar", "Gladiator", "Titanic", "The Bodyguard"], "answer": "Titanic"},
+    {"q": "What is the highest-grossing film of all time (as of 2021)?", "options": ["Avengers: Endgame", "Avatar", "Titanic", "Star Wars: The Force Awakens"], "answer": "Avatar"},
+    {"q": "Who portrayed the Joker in \"The Dark Knight\"?", "options": ["Joaquin Phoenix", "Jared Leto", "Heath Ledger", "Jack Nicholson"], "answer": "Heath Ledger"}
+  ],
+  "Geography": [
+    {"q": "What is the longest river in the world?", "options": ["Amazon", "Nile", "Yangtze", "Mississippi"], "answer": "Nile"},
+    {"q": "Which country spans 12 time zones?", "options": ["Russia", "Canada", "United States", "France"], "answer": "France"},
+    {"q": "What is the smallest country by land area?", "options": ["Monaco", "Vatican City", "Nauru", "San Marino"], "answer": "Vatican City"},
+    {"q": "On which continent is the Sahara Desert?", "options": ["Asia", "South America", "Africa", "Australia"], "answer": "Africa"},
+    {"q": "Which country is known as the Land of the Rising Sun?", "options": ["China", "Japan", "Thailand", "South Korea"], "answer": "Japan"},
+    {"q": "What is the capital of Australia?", "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": "Canberra"}
+  ],
+  "Sports": [
+    {"q": "How many players are on a soccer team on the field?", "options": ["10", "11", "12", "9"], "answer": "11"},
+    {"q": "Which country won the FIFA World Cup in 2018?", "options": ["Brazil", "Germany", "France", "Argentina"], "answer": "France"},
+    {"q": "In which sport is a 'home run' scored?", "options": ["Cricket", "Baseball", "Softball", "Hockey"], "answer": "Baseball"},
+    {"q": "Who has won the most Grand Slam tennis titles (men)?", "options": ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Pete Sampras"], "answer": "Roger Federer"},
+    {"q": "What height is a regulation basketball hoop (feet)?", "options": ["9", "10", "11", "12"], "answer": "10"},
+    {"q": "Which country hosted the 2016 Summer Olympics?", "options": ["China", "Brazil", "United Kingdom", "Russia"], "answer": "Brazil"}
+  ],
+  "Music": [
+    {"q": "Who is known as the King of Pop?", "options": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"], "answer": "Michael Jackson"},
+    {"q": "Which instrument has 88 keys?", "options":
