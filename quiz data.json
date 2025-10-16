@@ -1,9 +1,30 @@
 {
   "Space": [
-    {"q": "What planet has rings?", "options": ["Earth", "Mars", "Saturn", "Venus"], "answer": "Saturn"}
+    {"q": "Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": "Mars"},
+    {"q": "What is the name of our galaxy?", "options": ["Andromeda", "Milky Way", "Whirlpool", "Sombrero"], "answer": "Milky Way"},
+    {"q": "Which planet has the most moons?", "options": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": "Saturn"},
+    {"q": "What is the closest star to Earth?", "options": ["Alpha Centauri", "Betelgeuse", "Proxima Centauri", "Sun"], "answer": "Sun"},
+    {"q": "Which planet has rings?", "options": ["Earth", "Mars", "Saturn", "Venus"], "answer": "Saturn"}
   ],
   "Python": [
-    {"q": "What keyword defines a function?", "options": ["def", "func", "lambda", "define"], "answer": "def"}
+    {"q": "Who created Python?", "options": ["Guido van Rossum", "Elon Musk", "Dennis Ritchie", "James Gosling"], "answer": "Guido van Rossum"},
+    {"q": "Which symbol is used for comments in Python?", "options": ["//", "#", "/* */", "<!-- -->"], "answer": "#"},
+    {"q": "What does 'len()' do?", "options": ["Adds numbers", "Returns length", "Sorts list", "Deletes item"], "answer": "Returns length"},
+    {"q": "Which keyword defines a function?", "options": ["func", "define", "def", "function"], "answer": "def"},
+    {"q": "What is the output of print(2 ** 3)?", "options": ["6", "8", "9", "5"], "answer": "8"}
+  ],
+  "History": [
+    {"q": "Who was the first President of the United States?", "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], "answer": "George Washington"},
+    {"q": "In which year did World War II end?", "options": ["1945", "1939", "1918", "1950"], "answer": "1945"},
+    {"q": "Which empire built the Colosseum?", "options": ["Greek", "Roman", "Ottoman", "Persian"], "answer": "Roman"},
+    {"q": "Who discovered America in 1492?", "options": ["Vasco da Gama", "Christopher Columbus", "Marco Polo", "Ferdinand Magellan"], "answer": "Christopher Columbus"},
+    {"q": "Which wall divided Berlin?", "options": ["Great Wall", "Berlin Wall", "Iron Curtain", "Wall of Europe"], "answer": "Berlin Wall"}
+  ],
+  "Science": [
+    {"q": "What is H2O?", "options": ["Oxygen", "Hydrogen", "Water", "Salt"], "answer": "Water"},
+    {"q": "What planet is closest to the sun?", "options": ["Venus", "Earth", "Mercury", "Mars"], "answer": "Mercury"},
+    {"q": "What gas do plants absorb?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"], "answer": "Carbon Dioxide"},
+    {"q": "What is the boiling point of water?", "options": ["90°C", "100°C", "120°C", "80°C"], "answer": "100°C"},
+    {"q": "Which organ pumps blood?", "options": ["Lungs", "Brain", "Heart", "Kidneys"], "answer": "Heart"}
   ]
 }
-
